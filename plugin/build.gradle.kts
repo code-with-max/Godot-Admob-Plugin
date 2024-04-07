@@ -6,7 +6,7 @@ plugins {
 }
 
 // TODO: Update value to your plugin's name.
-val pluginName = "GodotAdmobBanner"
+val pluginName = "GodotAdmob"
 
 // TODO: Update value to match your plugin's package name.
 val pluginPackageName = "one.allme.godot.admob.banner"

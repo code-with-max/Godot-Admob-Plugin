@@ -10,14 +10,22 @@ config_version=5
 
 [application]
 
-config/name="Android Plugin Demo"
-run/main_scene="res://main.tscn"
+config/name="Admob Demo"
+run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[debug]
+[display]
 
-settings/stdout/verbose_stdout=true
+window/size/viewport_width=450
+window/size/viewport_height=700
+window/stretch/mode="canvas_items"
+window/stretch/aspect="ignore"
+window/handheld/orientation=1
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GodotAdmob/plugin.cfg")
 
 [rendering]
 

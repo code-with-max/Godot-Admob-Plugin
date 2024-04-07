@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 }
 
 // TODO: Update project's name.
-rootProject.name = "GodotAdmobBanner"
+rootProject.name = "GodotAdmob"
 include(":plugin")

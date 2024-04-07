@@ -40,9 +40,7 @@ class GodotAndroidAdmobPlugin(godot: Godot?) : GodotPlugin(godot) {
     private var rewardedInterstitial: RewardedInterstitial? = null
     private var interstitial: Interstitial? = null
     private var banner: Banner? = null
-    override fun getPluginName(): String {
-        return CLASS_NAME
-    }
+    override fun getPluginName() = "GodotAdmob"
 
     override fun getPluginSignals(): Set<SignalInfo> {
         val signals: MutableSet<SignalInfo> = ArraySet()
